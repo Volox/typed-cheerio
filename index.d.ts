@@ -109,7 +109,6 @@ declare namespace cheerio {
 
     eq(index: number): Cheerio;
 
-    get(): string[];
     get(): Element[];
     get(index: number): Element;
 
@@ -272,4 +271,4 @@ declare namespace cheerio {
 declare function cheerio(selector: string, context: string ): cheerio.Cheerio;
 declare function cheerio(selector: string, context: string, root: string): cheerio.Cheerio;
 
-export = cheerio
+export = cheerio;
