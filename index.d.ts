@@ -267,6 +267,7 @@ declare namespace cheerio {
   }
 
   export function load(html: string, options?: Options): Static;
+  export function load(element: Element, options?: Options): Static;
 }
 
 declare function cheerio(selector: string, context: string ): cheerio.Cheerio;
