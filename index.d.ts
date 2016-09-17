@@ -141,7 +141,7 @@ declare namespace cheerio {
     prepend(content: Document[], ...contents: any[]): Cheerio;
     prepend(content: Cheerio, ...contents: any[]): Cheerio;
 
-    prependTo( target: string ): Cheerio;
+    prependTo(target: string | Cheerio): Cheerio;
 
     after(content: string, ...contents: any[]): Cheerio;
     after(content: Document, ...contents: any[]): Cheerio;
